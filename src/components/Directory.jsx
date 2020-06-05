@@ -6,7 +6,7 @@ import "../styles/Directory.css";
 class Directory extends Component {
   state = {
     employees: [],
-    empSort: [],
+    employeeSort: [],
     search: "",
     sorted: false,
   };
