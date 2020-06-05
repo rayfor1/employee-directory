@@ -44,4 +44,69 @@ class Directory extends Component {
       this.setState({ sorted: true });
     });
   };
+
+  render = () => {
+    return (
+      <div>
+        <div className="jumbotron">
+          <h2 className="display-4">Employee Directory</h2>
+          <p>
+            Hello, I've created this employee directory that will allow us to
+            search for any and all of our co-workers and quickly find
+            information about them.
+          </p>
+          <p>
+            {" "}
+            Please use the app to search below by name or by e-mail to pull up
+            who you are looking for and any information we have about them.
+          </p>
+          <Search name="search" startSort={this.startSort} label="Search" />
+        </div>
+
+        <div className="container">
+          <table className="table">
+            <thead className="thead">
+              <tr>
+                <th>Picture</th>
+                <th>Name</th>
+                <th>E-mail</th>
+                <th>Phone</th>
+                <th>Birthdate</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* if it's not sorted, map accordingly */}
+              {!this.state.sorted
+                ? this.state.employees.map((employee) => (
+                    <Employees
+                      key={employee.id.value}
+                      firstName={employee.name.first}
+                      lastName={employee.name.last}
+                      phone={employee.phone}
+                      email={employee.email}
+                      icon={employee.picture.medium}
+                      dob={employee.dob.date}
+                    />
+                  ))
+                : // otherwise map the sorted employees
+                  this.state.employeeSort.map((employee) => (
+                    <Employees
+                      key={employee.id.value}
+                      firstName={employee.name.first}
+                      lastName={employee.name.last}
+                      phone={employee.phone}
+                      email={employee.email}
+                      icon={employee.picture.medium}
+                      dob={employee.dob.date}
+                    />
+                  ))}
+              ;
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  };
 }
+
+export default Directory;
