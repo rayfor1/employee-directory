@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Employees.css";
+import "../styles/Employee.css";
 
-const Employees = (props) => {
+const Employees = function (props) {
   return (
     <tr className="tr">
       <td>
@@ -12,6 +12,7 @@ const Employees = (props) => {
       </td>
       <td>{props.email}</td>
       <td>{props.phone} </td>
+      <td>{props.dob}</td>
     </tr>
   );
 };

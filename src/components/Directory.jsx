@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Employees from "./Employees.js";
-import Search from "./Search.js";
+import Employees from "./Employee.jsx";
+import Search from "./Search.jsx";
 import "../styles/Directory.css";
 
 class Directory extends Component {
@@ -24,7 +24,7 @@ class Directory extends Component {
   };
 
   // sort through employees based on search term
-  // check if there is a match and set that to empSort for rendering
+  // check if there is a match and set that to employeeSort for rendering
   sortEmployee = () => {
     let { employees, search } = this.state;
     let employeeSort = employees.filter((sorted) => {
