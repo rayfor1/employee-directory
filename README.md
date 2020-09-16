@@ -23,7 +23,7 @@ Primarily myself, with some assistance from my instructor, my TA's, and my tutor
 ## License
 MIT License
 
-Copyright (c) 2020 Jody Russell
+Copyright (c) 2020
 
 ### `npm start`
 
