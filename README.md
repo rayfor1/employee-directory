@@ -26,11 +26,6 @@ To view basic, non-sensitive data about other employees. It would be particularl
 ## Contributors
 Primarily myself, with some assistance from my instructor, my TA's, and my tutor
 
-## License
-MIT License
-
-Copyright (c) 2020
-
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -54,3 +49,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## License
+MIT License
+
+Copyright (c) 2020
