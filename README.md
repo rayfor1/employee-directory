@@ -6,11 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 As a user (manager or supervisor), I want to be able to view a list of all my employees using a directory to quickly obtain basic information pertaining to each person.
 
 ## Overview
-
 Project where the goal is make an employee directory using React.js, populating it with random employees from an api, and allowing the user to search/sort the results.
 
 ## Description
-
 Primary goal of this app is to create a simple employee directory app with React. Upon loading, it fakes an employee directory by importing a list of people (via randomuser.me). Once on the page, the user is able to search through the list by first name, last name, or email address in order to find the person they're looking for. The list of employees automatically displays dynamically as you type, to help the user narrow down their search. The information about the employees provided to the user include a profile image (for when you need to match a face to the name!), their phone number, e-mail, and the employee's date of birth.
 
 ## Deployed Link
@@ -18,6 +16,9 @@ Primary goal of this app is to create a simple employee directory app with React
 
 ## Usage
 To view basic, non-sensitive data about other employees. It would be particularly helpful to be able to parse through employees by name.
+
+## Contributors
+Primarily myself, with some assistance from my instructor, my TA's, and my tutor
 
 ## License
 MIT License
