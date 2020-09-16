@@ -1,4 +1,4 @@
-## Employee Directory
+# Employee Directory
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,6 +10,12 @@ Project where the goal is make an employee directory using React.js, populating 
 
 ## Description
 Primary goal of this app is to create a simple employee directory app with React. Upon loading, it fakes an employee directory by importing a list of people (via randomuser.me). Once on the page, the user is able to search through the list by first name, last name, or email address in order to find the person they're looking for. The list of employees automatically displays dynamically as you type, to help the user narrow down their search. The information about the employees provided to the user include a profile image (for when you need to match a face to the name!), their phone number, e-mail, and the employee's date of birth.
+
+## Image
+
+![main image](./README_img/employee_directory.png)
+
+&nbsp;
 
 ## Deployed Link
 
