@@ -1,8 +1,28 @@
+## Employee Directory
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## User Story
+As a user (manager or supervisor), I want to be able to view a list of all my employees using a directory to quickly obtain basic information pertaining to each person.
 
-In the project directory, you can run:
+## Overview
+
+Project where the goal is make an employee directory using React.js, populating it with random employees from an api, and allowing the user to search/sort the results.
+
+## Description
+
+Primary goal of this app is to create a simple employee directory app with React. Upon loading, it fakes an employee directory by importing a list of people (via randomuser.me). Once on the page, the user is able to search through the list by first name, last name, or email address in order to find the person they're looking for. The list of employees automatically displays dynamically as you type, to help the user narrow down their search. The information about the employees provided to the user include a profile image (for when you need to match a face to the name!), their phone number, e-mail, and the employee's date of birth.
+
+## Deployed Link
+
+
+## Usage
+To view basic, non-sensitive data about other employees. It would be particularly helpful to be able to parse through employees by name.
+
+## License
+MIT License
+
+Copyright (c) 2020 Jody Russell
 
 ### `npm start`
 
@@ -27,42 +47,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
